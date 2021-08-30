@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite - 3">
+    <test name="Test - 3">
+        <classes>
+            <class name="com.alevel.selenium.elmir.ElmirTest">
+                <methods>
+                    <include name="enterPurchaseViaTheSideMenu"/>
+                    <include name="registration"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
